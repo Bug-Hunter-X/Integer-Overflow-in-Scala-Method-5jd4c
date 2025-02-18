@@ -1,0 +1,1 @@
+This repository demonstrates a potential integer overflow bug in Scala and its solution. The bug arises from the direct comparison and potential addition of large integers in the `myMethod` function of `MyClass`.  The solution addresses this issue by using `BigInt` for safer arithmetic with arbitrarily large integers.  This avoids overflow issues.
